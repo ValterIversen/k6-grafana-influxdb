@@ -48,3 +48,7 @@ services:
     volumes:
       - ./scripts/load.js:/scripts/load.js
       - ./scripts/ewoks.js:/scripts/ewoks.js
+      - ./scripts/performance_test.js:/scripts/performance_test.js
+      - ./scripts/load_test.js:/scripts/load_test.js
+      - ./scripts/rupture_test.js:/scripts/rupture_test.js
+      - ./scripts/total_rupture_test.js:/scripts/total_rupture_test.js
